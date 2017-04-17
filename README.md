@@ -27,6 +27,6 @@ npm run github
 
 
 
-## 待改进
+## 改进
 
-由于我不会 python ，所以 pyton 每次都运行一次爬虫，而且 `json` 文件夹里面的`imooc.py`拿不出来，文件结构很乱的说。
+源码全部放在了src文件夹下，爬取的数据在json文件夹下，生成的md在Github和Hexo文件夹下

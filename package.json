@@ -1,6 +1,6 @@
 {
 	"name": "json2md",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "",
 	"main": "index.js",
 	"dependencies": {
@@ -8,8 +8,8 @@
 	},
 	"devDependencies": {},
 	"scripts": {
-		"hexo": "cd json && python imooc.py &&cd ..&&node hexo.js",
-		"github": "cd json && python imooc.py &&cd ..&&node github.js"
+		"hexo": "python src/imooc.py&&node src/hexo.js",
+		"github": "python src/imooc.py&&node src/github.js"
 	},
 	"author": "bubao",
 	"license": "MIT"

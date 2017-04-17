@@ -122,7 +122,7 @@ def start(page_num):
             get_course_data(li, save_map, level_dict, resp)
 
     save_map = str(save_map)
-    save_to_json('{0}.json'.format(h2_title), save_map)
+    save_to_json('json/{0}.json'.format(h2_title), save_map)
     print("下载完成：{0} -- {1}".format(page_num, h2_title))
 
 
